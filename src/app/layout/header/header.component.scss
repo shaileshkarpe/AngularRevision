@@ -1,0 +1,141 @@
+
+.fitem{
+  margin: 12px;
+  width: 122px;
+  height: 122px;
+}
+
+// * {
+ 
+// background-color:#e1beff;
+
+// }
+.btns{
+    position: relative;
+ 
+    left: 4px;
+}
+
+
+
+
+.main-container{
+  position: relative;
+
+  left: 1%;
+  top: 16px;
+
+ }
+
+ .form-control{
+  padding: 8px;
+ }
+ .search-button icon{
+  padding-top: 10px;
+ }
+.drop{
+  left: 34%;
+  bottom: 49px;
+
+}
+.style{
+  background-color: #512da8;
+  color: white;
+  font-size: 20px;
+}
+// .grid{
+//   position: relative;
+//   left: 582px;
+//   bottom: 36px;
+//   font-size: 20px;
+// }
+.grid1{
+  position: relative;
+  left: 582px;
+
+}
+.main-container button{
+  border: 0;
+
+}
+
+.bell{
+  position: relative;
+  left: 634px;
+  bottom: 61px;
+  font-size: 19px;
+  transform: none;
+}
+
+.msg:hover{
+color:red;
+}
+.bell:hover{
+color:rgb(231, 15, 15);
+}
+
+
+
+
+.msg{
+  position: relative;
+  left: 694px;
+  bottom: 85px;
+  font-size: 22px;
+}
+.language{
+  display: flex;
+  position: relative;
+  left: 748px;
+  bottom: 114px;
+  font-size: 20px;
+}
+mat-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+ul {
+  li {
+    list-style: none;
+  }
+}
+.logout{
+  outline: none;
+  border: 0;
+  background: transparent;
+  position: relative;
+  left: 60rem;
+  bottom: 182px;
+  display: flex;
+}
+.user {
+  font-size: 14px;
+}
+mat-toolbar {
+  background: #f7f7f7;
+}
+.user-image {
+  border-radius: 50%;
+  width: 47px;
+  height: 45px;
+  &-icon {
+    height: 31px;
+    width: 35px;
+  }
+}
+
+::ng-deep {
+  .mat-menu-content {
+    width: 160px;
+  }
+}
+
+.menu{
+  display: inline-block;
+
+}
+
+  
+

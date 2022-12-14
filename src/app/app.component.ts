@@ -6,5 +6,22 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'revision';
+
+content=false;
+opens=true
+  
+ title(title: any) {
+    throw new Error('Method not implemented.');
+  }
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+  sideBarOpen = true;
+
+  sideBarToggler() {
+    this.sideBarOpen = !this.sideBarOpen;
+  }
+
 }

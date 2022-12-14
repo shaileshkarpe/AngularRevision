@@ -1,0 +1,123 @@
+  
+
+
+<div class="div2">
+<mat-toolbar>
+  <mat-toolbar-row class="justify-content-between">
+    <button mat-icon-button (click)="toggleSidebar()">
+      <mat-icon>menu</mat-icon>
+    </button>
+
+    <div class="searchbar">
+      <div class="input-group searchbars">
+        <div class="form-outline">
+          <input
+            type="search"
+            id="form1"
+            class="form-control"
+            placeholder="Search"
+          />
+        </div>
+
+        <button class="search-button" type="button" class="btn btn-primary">
+          <mat-icon class="icon">search</mat-icon>
+        </button>
+      </div>
+    </div>
+    <div class="btn-group group">
+      <button
+        class="btn btn-primary btn-lg dropdown-toggle"
+        type="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        Category
+      </button>
+      <ul class="dropdown-menu">
+        <li>hello</li>
+        
+      </ul>
+    </div>
+
+<!-- <div class="notificatio">
+    <button id="btn" (click)="toggleButton()" ><mat-icon>apps</mat-icon></button>
+
+    <div class="image">
+
+        <ul *ngIf="isEnable">
+
+            <li *ngFor="let i of img "><img src=" {{ i }} "  style="width: 30px;" alt=""></li>
+
+        </ul>
+    </div>
+  </div> -->
+
+
+
+
+ <span class="grid"><i class="bi bi-grid-3x3-gap-fill grid"></i> apps</span> 
+    <mat-icon class="notification" matBadge="10" matBadgeColor="warn"
+      >notifications</mat-icon
+    >
+
+    <mat-icon matBadge="10" matBadgeColors="warning">mail</mat-icon>
+
+
+
+
+
+
+
+
+
+
+    
+
+    <div class="">
+      <select data-placeholder="Choose a Language">
+        <option value="AF"><b>English</b></option>
+        <option value="SQ"><b>हिन्दी</b></option>
+        <option value="AR">Spanish</option>
+        <option value="HY">Urdu</option>
+        <option value="EU">Russian</option>
+      </select>
+    </div>
+
+    <ul class="row m-0 align-items-center">
+      <li>
+        <button
+          mat-button
+          [matMenuTriggerFor]="menu"
+          class="user mt-2 d-flex align-items-center"
+        >
+          <img
+            src="./assets/sk.jpg"
+            alt=""
+            class="user-image mr-1 p-2"
+            height="20"
+            width="20"
+          />
+
+          User Name
+          <mat-icon class="user-image-icon ml-1">keyboard_arrow_down</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item>
+            <mat-icon>account_circle</mat-icon>
+            Account
+          </button>
+          <button mat-menu-item>
+            <mat-icon>settings</mat-icon>
+            setting
+          </button>
+          <button mat-menu-item  routerLink='/login'>
+            <mat-icon>logout</mat-icon>
+            Logout
+          </button>
+        </mat-menu>
+      </li>
+    </ul>
+  </mat-toolbar-row>
+</mat-toolbar>
+</div>
+

@@ -1,0 +1,68 @@
+*{
+    text-decoration: none;
+}
+
+.example-card{
+    background-color: rgb(230, 234, 247);
+}
+// a{
+//     color: black;
+//     position: relative;
+//    left: 35px;
+//    padding: 10px 10px 10px 20px;
+// }
+// button :hover{
+//     color: blueviolet;
+// }
+   
+
+
+
+
+.mat-list-item {
+
+    color: #030304 !important;
+  
+    font-size: 15px;
+  
+    height: 44px !important;
+  
+    margin-bottom: 4px;
+    margin-left: 52px;
+  
+    &:hover {
+  
+      color: #8f22d3 !important;
+  
+    }
+  
+
+  
+  }
+  
+  .list-item-active {
+  
+  
+  
+    color: #090909 !important;
+  
+    ::ng-deep {
+  
+      .mat-list-item-content {
+  
+        background:#e0e0e0 !important;
+        color: #8316c6;
+       
+  
+        &:hover {
+  
+          background: #cacdcc !important;
+       
+  
+        }
+  
+      }
+  
+    }
+  
+  }
